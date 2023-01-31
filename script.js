@@ -98,7 +98,7 @@ btnHold.addEventListener('click', function () {
         } // summ is working correctly, now we have to add switch player mechanics:
 
         // check if total >= 100
-        if (totalScore0Pl <= 10 && totalScore1Pl <= 100) {
+        if (totalScore0Pl <= 100 && totalScore1Pl <= 100) {
             switchPlayer();
             toggleActivePlayerStyle();
         } else {
